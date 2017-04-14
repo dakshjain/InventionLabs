@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_gravity="top">
+    <ImageView
+        android:id="@+id/daksh1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/daksh1"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/imageview_background"
+
+        />
+    <ImageButton android:id="@+id/previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hint_icon"
+        android:background="@null"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:text="Submit"
+        android:layout_marginLeft="200dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Double Tap to Enter your Choice "/>
+    <ScrollView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:text="Spots"
+
+                android:layout_marginRight="30dp"
+                style="?android:listSeparatorTextViewStyle"/>
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:text="1 -"
+
+                android:layout_marginRight="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Earth"
+
+
+                style="?android:listSeparatorTextViewStyle"
+
+                />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:text="2 -"
+
+                android:layout_marginRight="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="The Sun"
+
+                style="?android:listSeparatorTextViewStyle"
+
+                />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:text="3 - Two"
+
+                android:layout_marginRight="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Swooping"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Owls"
+
+
+                style="?android:listSeparatorTextViewStyle"
+
+                />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:text="4 - One"
+
+                android:layout_marginRight="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Monkey"
+
+                style="?android:listSeparatorTextViewStyle"
+
+                />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:text="5 - Five"
+
+                android:layout_marginRight="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Ants"
+
+                style="?android:listSeparatorTextViewStyle"
+
+                />
+            />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:text="6 - One"
+
+                android:layout_marginRight="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Caterpillar"
+
+                style="?android:listSeparatorTextViewStyle"
+
+                />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:text="7 - One"
+
+                android:layout_marginRight="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Butterfly"
+
+
+
+                />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:text="8 - Two"
+
+                android:layout_marginRight="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Cats"
+
+                style="?android:listSeparatorTextViewStyle"
+
+                />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:text="9 - One"
+
+                android:layout_marginRight="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Pair of"
+
+
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Slippers"
+
+                style="?android:listSeparatorTextViewStyle"
+
+                />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:text="10 - Four"
+
+                android:layout_marginRight="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Red"
+
+
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Flowers"
+
+                style="?android:listSeparatorTextViewStyle"
+
+                />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:text="11 - One"
+
+                android:layout_marginRight="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Book"
+                style="?android:listSeparatorTextViewStyle"
+
+
+                />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:text="12 - One"
+
+                android:layout_marginRight="30dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Kite"
+                style="?android:listSeparatorTextViewStyle"
+
+
+                />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
